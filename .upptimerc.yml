@@ -1,79 +1,42 @@
-# ============================================                                        
-  # Configuração Upptime - Clima Creators                                               
-  # ============================================                                        
-                                                                                        
-  owner: iguinhus                                                                       
+owner: iguinhus                                                                       
   repo: clima-creators-status                                                           
                                                                                         
-  # --------------------------------------------                                        
-  # Sites e Serviços Monitorados                                                        
-  # --------------------------------------------                                        
   sites:                                                                                
-    # App Principal                                                                     
     - name: Clima Creators (Dev)                                                        
       url: https://climacreators.vercel.app                                             
-      icon: https://climacreators.vercel.app/favicon.ico                                
                                                                                         
-    # Supabase (banco de dados)                                                         
     - name: Supabase                                                                    
       url: https://status.supabase.com                                                  
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-    # Vercel (hosting)                                                                  
     - name: Vercel                                                                      
       url: https://www.vercel-status.com                                                
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-    # Sentry (monitoramento de erros)                                                   
     - name: Sentry                                                                      
       url: https://status.sentry.io                                                     
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-    # PostHog (analytics)                                                               
     - name: PostHog                                                                     
       url: https://status.posthog.com                                                   
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-    # Resend (emails)                                                                   
     - name: Resend                                                                      
       url: https://resend-status.com                                                    
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-    # Pluggy (Open Finance)                                                             
     - name: Pluggy                                                                      
       url: https://status.pluggy.ai                                                     
-      expectedStatusCodes:                                                              
-        - 200                                                                           
                                                                                         
-  # --------------------------------------------                                        
-  # Configuração da Página de Status                                                    
-  # --------------------------------------------                                        
   status-website:                                                                       
     baseUrl: /clima-creators-status                                                     
     name: Clima Creators                                                                
-    introTitle: "**Status dos Serviços**"                                               
-    introMessage: Monitoramento em tempo real da plataforma Clima Creators e seus       
-  serviços.                                                                             
+    introTitle: "Status dos Servicos"                                                   
+    introMessage: "Monitoramento em tempo real da plataforma Clima Creators."           
     navbar:                                                                             
       - title: Status                                                                   
         href: /                                                                         
       - title: Clima Creators                                                           
         href: https://climacreators.vercel.app                                          
                                                                                         
-  # --------------------------------------------                                        
-  # Responsáveis pelos incidentes                                                       
-  # --------------------------------------------                                        
   assignees:                                                                            
     - iguinhus                                                                          
                                                                                         
-  # --------------------------------------------                                        
-  # Frequência dos checks                                                               
-  # --------------------------------------------                                        
   workflowSchedule:                                                                     
     uptime: "*/5 * * * *"                                                               
     responseTime: "0 */6 * * *"                                                         
@@ -81,25 +44,15 @@
     summary: "0 0 * * *"                                                                
     graphs: "0 0 * * *"                                                                 
                                                                                         
-  # --------------------------------------------                                        
-  # Commits automáticos                                                                 
-  # --------------------------------------------                                        
   commitMessages:                                                                       
-    commitAuthorName: "Upptime Bot"                                                     
-    commitAuthorEmail: "upptime@climacreators.com.br"                                   
-    templateRecoveredRecent: "🟢 $SITE está de volta"                                   
-    templateRecoveredScheduled: "🟢 $SITE está de volta"                                
-    templateDown: "🔴 $SITE está fora do ar"                                            
-    templateDegraded: "🟡 $SITE está degradado"                                         
+    commitAuthorName: Upptime Bot                                                       
+    commitAuthorEmail: upptime@climacreators.com.br                                     
                                                                                         
-  # --------------------------------------------                                        
-  # Internacionalização (PT-BR)                                                         
-  # --------------------------------------------                                        
   i18n:                                                                                 
     activeIncidents: Incidentes Ativos                                                  
-    allSystemsOperational: ✅ Todos os sistemas operacionais                            
-    incidentReport: "Incidente #$NUMBER — $DATE"                                        
-    activeIncidentSummary: "Detectado há $MINUTES minutos"                              
+    allSystemsOperational: Todos os sistemas operacionais                               
+    incidentReport: Incidente $NUMBER                                                   
+    activeIncidentSummary: Detectado ha $MINUTES minutos                                
     incidentTitle: Detalhes do Incidente                                                
     incidentDetails: Detalhes                                                           
     incidentFixed: Resolvido                                                            
@@ -107,21 +60,14 @@
     incidentDegraded: Degradado                                                         
     incidentDown: Fora do ar                                                            
     pastIncidents: Incidentes Recentes                                                  
-    pastIncidentsResolved: Incidentes resolvidos nos últimos 7 dias.                    
+    pastIncidentsResolved: Incidentes resolvidos nos ultimos 7 dias                     
     liveStatus: Status Atual                                                            
-    overallUptime: "Disponibilidade: $UPTIME nos últimos $DAYS dias"                    
+    overallUptime: Disponibilidade nos ultimos $DAYS dias                               
     overallUptimeTitle: Disponibilidade Geral                                           
-    averageResponseTime: "Tempo médio de resposta"                                      
-    responseTimeMs: ms                                                                  
+    averageResponseTime: Tempo medio de resposta                                        
     up: Operacional                                                                     
     down: Fora do ar                                                                    
     degraded: Degradado                                                                 
     ms: ms                                                                              
-    loading: Carregando...                                                              
-    responseTimeGraphs: Histórico de Tempo de Resposta                                  
-    liveStatusHtmlEncoder: Status - Clima Creators                                      
-                                                                                        
-  # --------------------------------------------                                        
-  # Configurações do Repositório                                                        
-  # --------------------------------------------                                        
-  user-agent: "Upptime/Clima-Creators"                                                  
+    loading: Carregando                                                                 
+    responseTimeGraphs: Historico de Tempo de Resposta  

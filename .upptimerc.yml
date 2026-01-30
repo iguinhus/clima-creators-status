@@ -1,54 +1,48 @@
 owner: iguinhus                                                                       
-  repo: clima-creators-status                                                           
+repo: clima-creators-status                                                           
                                                                                         
-  sites:                                                                                
-    - name: Clima Creators (Dev)                                                        
-      url: https://climacreators.vercel.app                                             
+sites:                                                                                
+  - name: Clima Creators (Dev)                                                          
+    url: https://climacreators.vercel.app                                               
+  - name: Supabase                                                                      
+    url: https://status.supabase.com                                                    
+  - name: Vercel                                                                        
+    url: https://www.vercel-status.com                                                  
+  - name: Sentry                                                                        
+    url: https://status.sentry.io                                                       
+  - name: PostHog                                                                       
+    url: https://status.posthog.com                                                     
+  - name: Resend                                                                        
+    url: https://resend-status.com                                                      
+  - name: Pluggy                                                                        
+    url: https://status.pluggy.ai                                                       
                                                                                         
-    - name: Supabase                                                                    
-      url: https://status.supabase.com                                                  
-                                                                                        
-    - name: Vercel                                                                      
-      url: https://www.vercel-status.com                                                
-                                                                                        
-    - name: Sentry                                                                      
-      url: https://status.sentry.io                                                     
-                                                                                        
-    - name: PostHog                                                                     
-      url: https://status.posthog.com                                                   
-                                                                                        
-    - name: Resend                                                                      
-      url: https://resend-status.com                                                    
-                                                                                        
-    - name: Pluggy                                                                      
-      url: https://status.pluggy.ai                                                     
-                                                                                        
-  status-website:                                                                       
+status-website:                                                                       
     baseUrl: /clima-creators-status                                                     
     name: Clima Creators                                                                
-    introTitle: "Status dos Servicos"                                                   
-    introMessage: "Monitoramento em tempo real da plataforma Clima Creators."           
+    introTitle: Status dos Servicos                                                     
+    introMessage: Monitoramento em tempo real da plataforma Clima Creators.             
     navbar:                                                                             
-      - title: Status                                                                   
-        href: /                                                                         
-      - title: Clima Creators                                                           
-        href: https://climacreators.vercel.app                                          
+    - title: Status                                                                     
+      href: /                                                                           
+    - title: Clima Creators                                                             
+      href: https://climacreators.vercel.app                                            
                                                                                         
-  assignees:                                                                            
-    - iguinhus                                                                          
+assignees:                                                                            
+  - iguinhus                                                                            
                                                                                         
-  workflowSchedule:                                                                     
+workflowSchedule:                                                                     
     uptime: "*/5 * * * *"                                                               
     responseTime: "0 */6 * * *"                                                         
     staticSite: "0 1 * * *"                                                             
     summary: "0 0 * * *"                                                                
     graphs: "0 0 * * *"                                                                 
                                                                                         
-  commitMessages:                                                                       
+commitMessages:                                                                       
     commitAuthorName: Upptime Bot                                                       
     commitAuthorEmail: upptime@climacreators.com.br                                     
                                                                                         
-  i18n:                                                                                 
+i18n:                                                                                 
     activeIncidents: Incidentes Ativos                                                  
     allSystemsOperational: Todos os sistemas operacionais                               
     incidentReport: Incidente $NUMBER                                                   

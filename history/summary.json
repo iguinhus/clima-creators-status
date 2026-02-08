@@ -22,19 +22,19 @@
     "url": "https://status.supabase.com",
     "icon": "https://icons.duckduckgo.com/ip3/status.supabase.com.ico",
     "slug": "supabase",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 373,
-    "timeDay": 331,
-    "timeWeek": 398,
-    "timeMonth": 373,
-    "timeYear": 373,
+    "status": "up",
+    "uptime": "99.82%",
+    "uptimeDay": "98.33%",
+    "uptimeWeek": "99.76%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.82%",
+    "time": 369,
+    "timeDay": 315,
+    "timeWeek": 392,
+    "timeMonth": 369,
+    "timeYear": 369,
     "dailyMinutesDown": {
-      "2026-02-08": 0
+      "2026-02-08": 24
     }
   },
   {
@@ -115,18 +115,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.pluggy.ai.ico",
     "slug": "pluggy",
     "status": "down",
-    "uptime": "99.06%",
-    "uptimeDay": "95.53%",
-    "uptimeWeek": "98.78%",
-    "uptimeMonth": "99.06%",
-    "uptimeYear": "99.06%",
+    "uptime": "98.88%",
+    "uptimeDay": "93.86%",
+    "uptimeWeek": "98.54%",
+    "uptimeMonth": "98.88%",
+    "uptimeYear": "98.88%",
     "time": 1492,
     "timeDay": 1080,
     "timeWeek": 1472,
     "timeMonth": 1492,
     "timeYear": 1492,
     "dailyMinutesDown": {
-      "2026-02-08": 64,
+      "2026-02-08": 88,
       "2026-02-04": 59
     }
   }

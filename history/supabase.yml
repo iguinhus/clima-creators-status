@@ -1,7 +1,7 @@
 url: https://status.supabase.com
-status: down
-code: 503
-responseTime: 210
-lastUpdated: 2026-04-09T06:56:42.168Z
+status: up
+code: 200
+responseTime: 925
+lastUpdated: 2026-04-09T07:51:02.390Z
 startTime: 2026-01-30T16:13:54.186Z
 generator: Upptime <https://github.com/upptime/upptime>
